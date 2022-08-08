@@ -1,0 +1,30 @@
+body{
+    background: #000;
+}
+
+@import 'article';
+
+.boton{
+    display: inline-block;
+    padding: 15px 20px;
+    background: none;
+    color: #fff;
+    text-decoration: none; 
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.btn-rojo{
+    @extend .boton;
+    background: #ff2732;
+}
+
+.btn-azul{
+    @extend .boton;
+    background: #246eb9;
+}
+
+.btn-verde{
+    @extend .boton;
+    background: #4fb560;
+}
